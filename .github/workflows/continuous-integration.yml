@@ -13,10 +13,10 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: macos-latest
-            java: 8
-          - os: windows-latest
-            java: 8
+          # - os: macos-latest
+          #   java: 8
+          # - os: windows-latest
+          #   java: 8
           - os: ubuntu-latest
             java: 8
           - os: ubuntu-latest
