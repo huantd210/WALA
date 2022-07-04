@@ -52,6 +52,22 @@
 				</plugins>
 			</build>
 		</profile>
+		<profile>
+			<id>github</id>
+			<activation>
+				<property>
+					<name>useGitHubPackages</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<distributionManagement>
+				<repository>
+					<id>github</id>
+					<name>GitHub Packages</name>
+					<url>https://maven.pkg.github.com/huantd210/WALA</url>
+				</repository>
+			</distributionManagement>
+		</profile>
 	</profiles>
 
 	<build>
