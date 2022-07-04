@@ -284,4 +284,28 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
+	<scm>
+		<connection>scm:git:git@github.com:huantd210/WALA.git</connection>
+		<developerConnection>scm:git:git@github.com:huantd210/WALA.git</developerConnection>
+		<url>https://github.com/huantd210/WALA/tree/master</url>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub WALA Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/huantd210/WALA</url>
+		</repository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>ossrh-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 </project>
